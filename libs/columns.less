@@ -1,0 +1,16 @@
+//LESS DOCUMENT
+
+.setColumnWidth (@columns: 4, @margin: 6%) {
+    @totalMargin: (@columns - 1)*@margin;
+    @columnWidth: (100% - @totalMargin)/@columns;
+    width: @columnWidth;
+    margin-left: @margin;
+}
+ 
+.setBigColumnWidth (@columns: 4, @margin: 4%, @combine: 2) {
+    @totalMargin: (@columns - 1)*@margin;
+    @columnWidth: (100% - @totalMargin)/@columns;
+    @wideColumn: (@columnWidth * @combine) + (@margin * (@combine - 1));
+    width: @wideColumn;
+    margin-left: @margin;
+}

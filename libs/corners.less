@@ -1,0 +1,22 @@
+//LESS DOCUMENT
+
+// Add Round Corners to your elements.
+
+//This creates rounded corners on borders.
+//It can also turn images into circles if the radius is set very high.
+.rounded-corners (@radius: 5px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+}
+
+//In this version, you can specify which corners to make round.
+.rounded-corners-custom (@topleft: 5px, @topright: 5px, @bottomleft: 5px, @bottomright: 5px) {
+-webkit-border-radius: @topleft @topright @bottomright @bottomleft;
+-moz-border-radius: @topleft @topright @bottomright @bottomleft;
+border-radius: @topleft @topright @bottomright @bottomleft;
+}

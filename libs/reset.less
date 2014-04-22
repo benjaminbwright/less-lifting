@@ -1,0 +1,60 @@
+//LESS DOCUMENT
+
+/* CSS Mini Reset */
+
+html, body, div, form, fieldset, legend, label
+{
+ margin: 0;
+ padding: 0; 
+}
+
+table
+{
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+th, td
+{
+ text-align: left;
+ vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6, th, td, caption { font-weight:normal; }
+
+img { border: 0; }
+
+//Clearfix
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.clearfix {display:block;}
+
+//Resets for list elemnts
+
+.list-reset {
+     list-style: none;
+     margin:0;
+     padding: 0;
+     li {
+          list-style: none;
+          margin:0;
+          padding: 0;
+     }
+}
+
+.list-float {
+     .clearfix;
+     li {
+          float: left;
+          display: inline-block;
+     }
+}
+
+
