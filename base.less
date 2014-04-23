@@ -1,37 +1,39 @@
-/* CSS Document */
+/**
+ * less-lifting: A simple lightweight LESS framework.
+ *
+ * @package    less-lifting
+ * @version    0.1.0
+ * @author     Benjamin Wright
+ * @license    MIT License
+ * @copyright  2014 Benjamin Wright
+ * @link       http://www.benjaminbwright.com
+ */
 
+//
+//Base styles that should apply at any screen size.
+//-------------------------------------------------------
 
 @import "libs/include.less";
 
-body {
-	padding: 1em 5em 1em 5em;
-	background: @bg-color;
-}
+//Basic Site Styles
 
 //Header
-
-header {
-	width:100%;
-	margin-top: 0px;
-	border-bottom: solid 1px @peach;
-	overflow:hidden;
-}
-
-
-#main-nav {
-}
 
 //Stuff In Between
 
 //Footer
 
 
-@media only screen and (min-width:600px) {
-	@import "medium.less";
-}
+//
+//Breakpoints
+//
+//These can be any width that suits your project.
+//
+//Note: DO NOT CHANGE ANYTHING INSIDE THE BRACKETS.
+//	USE THE MEDIUM OR LARGE FILES.
+//-------------------------------------------------------
 
-@media only screen and (min-width:900px) {
-
-@import "large.less";
-
-}
+//Medium screen sizes
+@media only screen and (min-width:600px) {@import "medium.less";}
+//Large screen sizes
+@media only screen and (min-width:900px) {@import "large.less";}
