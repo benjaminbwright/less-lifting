@@ -13,23 +13,31 @@
 //Typography
 //-------------------------------------------
 
-//Import web fonts
+//Fonts
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|Abril+Fatface);
 
-//set base font-size variables
-@normal-size: 12px;
+@brand-font-family: "Abril Fatface", serif;
+@headings-font-family: "PT Sans", sans-serif;
+@body-font-family: @headings-font-family;
+
+//Font Sizes
+@small-font: 14px;
+@medium-font: @small-font * 1.4;
+@large-font: @medium-font * 1.2;
+
 
 //
 //Headings
 //---------------------------------------------
-@headings-font-family: "Abril Fatface", serif;
-@body-font-family: "Neuton", serif;
+
+@headings-font-weight: bold;
+@headings-line-height: .75em;
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: @headings-font-family;
-  //font-weight: @headings-font-weight;
-  //line-height: @headings-line-height;
+  font-weight: @headings-font-weight;
+  line-height: @headings-line-height;
   color: @red;
 
   small,
@@ -41,7 +49,35 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1 {
-	font-size: @normal-size * 4;
+	font-size: 3em;
+}
+
+h2 {
+  font-size: 2.6em;
+}
+
+h3 {
+  font-size: 2.2em;
+}
+
+h4 {
+  font-size: 1.8em;
+}
+
+h5 {
+  font-size: 1em;
+}
+// Brand
+header {
+  h1 {
+    font-family: @brand-font-family;
+    font-weight: normal;
+    line-height: @headings-line-height;
+    font-size: 4em;
+  }
+  h2 {
+    font-size: 1em;
+  }
 }
 
 //
@@ -50,9 +86,14 @@ h1 {
 
 body {
 	font-family: @body-font-family;
+  font-size: 1em;
+  p {
+    font-size: 1em;
+  }
+  a {
+  color: @peach;
+  text-decoration: none;
+  }
 }
 
-a {
-	color: @peach;
-	text-decoration: none;
-}
+
