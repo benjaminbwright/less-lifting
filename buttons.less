@@ -1,0 +1,20 @@
+//
+// Buttons
+////----------------------------------------------------------
+
+//The Button Mixin
+
+.button() {
+	border:none;
+	background: @black;
+	color: @grey-lighter;
+	font-weight: bold;
+	padding: .5em 1em .5em 1em;
+	margin: 1em;
+	-webkit-appearance: none;
+	.rounded-corners(3px);
+	&:hover {
+		background: @grey-lighter;
+		color: @black;
+	}
+}
