@@ -1,0 +1,87 @@
+//
+// Color Palette Mixins
+//------------------------------------------------------------------
+
+
+// Shades
+.shades-palette(@base-color: #2865CC) {
+  @difference: 10%; // Difference (in perecent) between each shade
+  @shade1: lighten(@base-color, (@difference * 2));
+  @shade2: lighten(@base-color, @difference);
+  @shade3: @base-color;
+  @shade4: darken(@base-color, @difference);
+  @shade5: darken(@base-color, (@difference * 2));
+}
+    
+// Analagous
+.analagous-palette(@base-color: #2865CC) {
+  @distance1: 10; // Degrees between each analgous color
+  @analagous1: spin(@base-color, (@distance1 * 2));
+  @analagous2: spin(@base-color, @distance1);
+  @analagous3: @base-color;
+  @analagous4: spin(@base-color, (@distance1 * -1));
+  @analagous5: spin(@base-color, (@distance1 * -2));
+}
+
+// Complementary
+.complementary-palette(@base-color: #2865CC) {
+  @complementary1: @base-color;
+  @complementary2: spin(@base-color, 180);
+}
+
+// Split Complementary
+.split-complementary-palette(@base-color: #2865CC) {
+  @distance2: 80; // Degrees between the two complementary colors
+  @split-complementary1: spin(@base-color, ((360 - @distance2) / 2));
+  @split-complementary2: @base-color;
+  @split-complementary3: spin(@base-color, (((360 - @distance2) / 2) * -1));
+}
+
+// Clash
+.clash-palette(@base-color: #2865CC) {
+  @angle: 45; // Angle formed at base of isosceles triangle
+  @clash1: spin(@base-color, (@angle * -2));
+  @clash2: @base-color;
+  @clash3: spin(@base-color, (@angle * 2));
+}
+
+// Triadic
+.triadic-palette(@base-color: #2865CC) {
+  @distance3: 120; // Degrees between the two new colors
+  @triad1: @base-color;
+  @triad2: spin(@base-color, (180 - (@distance3 * 0.5)));
+  @triad3: spin(@base-color, (180 + (@distance3 * 0.5)));
+}
+
+// Tetradic
+.tetradic-palette(@base-color: #2865CC) {
+  @distance4: 90; // Degrees between two closest colors
+  @tetrad1: @base-color;
+  @tetrad2: spin(@base-color, @distance4);
+  @tetrad3: spin(@base-color, 180);
+  @tetrad4: spin(@base-color, (180 + @distance4));
+}
+
+// Five tone
+.five-tone-palette(@base-color: #2865CC) {
+  @distance5: 30; // Degrees between the 4 analgous colors
+  @five-tone1: @base-color;
+  @five-tone2: spin(@base-color, (180 - (@distance5 * 1.5)));
+  @five-tone3: spin(@base-color, (180 - (@distance5 * 0.5)));
+  @five-tone4: spin(@base-color, (180 + (@distance5 * 0.5)));
+  @five-tone5: spin(@base-color, (180 + (@distance5 * 1.5)));
+}
+
+// Six tone
+.six-tone-palette(@base-color: #2865CC) {
+  @distance6: 20; // Distance between the colors of each analgous pair
+  // Pair 1
+  @six-tone1: @base-color;
+  @six-tone2: spin(@base-color, @distance6);
+  // Pair 2
+  @six-tone3: spin(@base-color, (120 - (@distance6 * 0.5)));
+  @six-tone4: spin(@base-color, (120 + (@distance6 * 0.5)));
+  // Pair 3
+  @six-tone5: spin(@base-color, (-120 + (@distance6 * 0.5)));
+  @six-tone6: spin(@base-color, (-120 - (@distance6 * 0.5)));
+}
