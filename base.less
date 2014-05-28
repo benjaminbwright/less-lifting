@@ -21,6 +21,7 @@
 - Float
 - Headings
 2.0 Global:
+- Breakpoints
 - Colors 
 - Typography
 - Headings
@@ -35,14 +36,16 @@
 6.0 Media
 7.0 Navigation
 8.0 Custom Syles
-9.0 Breakpoints
-10.0 Comments */
+9.0 Comments */
 
 /* 1.0 Libraries */
 
 @import "libs/include.less";
 
+
 /* 2.0 Global */
+//Breakpoints
+@import "breakpoints.less";
 
 //Colors
 @import "colors.less";
@@ -89,23 +92,4 @@
 /* 8.0 Custom Styles */
 @import "custom.less";
 
-/* 9.0 Breakpoints */
-@import "breakpoints.less";
-
-//
-//Breakpoints
-//
-//These can be any width that suits your project.
-//
-//Note: DO NOT CHANGE ANYTHING INSIDE THE BRACKETS.
-//	CREATE BREAKPOINT SPECIFIC FILES.
-//-------------------------------------------------------
-
-//Small screen sizes
-@media @baby-bear {}
-//Medium screen sizes
-@media @mama-bear {}
-//Large screen sizes
-@media @papa-bear {}
-
-/* 10.0 Comments */
+/* 9.0 Comments */
