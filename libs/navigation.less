@@ -22,115 +22,64 @@
 *		</nav>
 *
 *************************************************************/
-
-
-.css3-dropdown() {
-	a {
-		background: #ddd;
-	    color: #444;
-	    display: block;
-	    font: bold 16px/50px sans-serif;
-	    padding: 0 25px;
-	    text-align: center;
-	    text-decoration: none;
-	    -webkit-transition: all .25s ease;
-	       -moz-transition: all .25s ease;
-	        -ms-transition: all .25s ease;
-	         -o-transition: all .25s ease;
-	            transition: all .25s ease;
-	    &.dropdown:after {
-	    	content: ' \25B6';
-	    }
-	    &.dropdown:hover:after {
-	    	content:'\25bc'
-	    }
-	}
-	ul {
-	-webkit-font-smoothing:antialiased;
-	text-shadow:0 1px 0 #FFF;
-    background: #ddd;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-		li {
-	    float: left;
-	    margin: 0;
-	    padding: 0;
-	    position: relative;
-	    min-width: 25%;
-	    	ul {
-	    		float: left;
-			    left: 0;
-			    opacity: 0;
-			    position: absolute;
-			    top: 35px;
-			    visibility: hidden;
-			    display:none;
-			    z-index: 1;
-			    -webkit-transition: all .25s ease;
-			       -moz-transition: all .25s ease;
-			        -ms-transition: all .25s ease;
-			         -o-transition: all .25s ease;
-			            transition: all .25s ease;
-			    a {
-			    	&:hover {
-			    		background: #bbb;
-			    	}
-			    }
-				li {
-					float: none;
-	    			width: 100%;
-				}
-	    	}
-	    	&:hover {
-	    		a {
-	    			background: #ccc;
-	    		}
-	    		ul {
-	    			opacity: 1;
-				    top: 50px;
-				    visibility: visible;
-	    		}
-	    	}
-		}
-	}
-
-	/* Clearfix */
-
-	&:after, &:before {
-	    content:"";
-	    display:table;
-	}
-	&:after {
-	    clear:both;
-	}
-	zoom: 1;
-}
-
-.nav-horizontal-dropdown() {
-	@spacing-unit: 1em;
+.nav-horizontal-dropdown(@spacing-unit: 1em, @bg-color: @grey-dark, @txt-color: @grey-lighter) {
+	background: @grey-dark;
 	ul {
 		list-style: none;
 		margin: 0;
 		padding: 0;
+		background: @bg-color;
+		overflow: visible;
+		color: @txt-color;
 		a {
 			text-decoration: none;
+			color: @txt-color;
+			padding-left: 5px;
+		    &.dropdown:after {
+		    	content: '\25bc';
+		    }
 		}
 		li {
 			display:inline-block;
 			float: left;
-			border: solid @grey-darker 1px;
+			background: @bg-color;
 			padding: @spacing-unit;
+			&:hover {
+				background: @txt-color;
+				a {
+					color: @bg-color;
+				}
+				ul {
+					li {
+						a {
+							color: @txt-color;
+						}
+					}
+				}
+			}
 			ul {
 				position:absolute;
 				display: none;
 				margin-top: @spacing-unit;
-				margin-left: -@spacing-unit;
+				margin-left: -1 * @spacing-unit;
+				background: @bg-color;
+				color: @txt-color;
+				a {
+					color: @txt-color;
+				}
 				li {
 					float: none;
 					display: block;
+					a {
+						color: @txt-color;
+					}
+					&:hover {
+						a {
+							color: @bg-color;
+						}
+					}
 				}
+
 			}
 			&:hover > ul {
 				display: block;

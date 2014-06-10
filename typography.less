@@ -6,39 +6,73 @@
 
 @import "font-index.less";
 
-// Set Base font-size variables
-
-@normal-font-size: 12px;
-
-// Font Color Variables
-
-//
-//Headings
-//---------------------------------------------
-
 //Font Family
 
-@headings-font-family: "Muli", sans-serif;
-@body-font-family: "Muli", sans-serif;
+@heading-font-family: "Muli", sans-serif;
+@heading-font-weight: 700;
+
+@fixed-font-family: "Muli", sans-serif;
+@fixed-font-size: 16px;
+@fixed-font-weight: normal;
+@fixed-line-height: 1;
+
+//Font Colors
+
+@quiet-color: @grey;
+@loud-color: @red;
+
+// Set the normal font size.
+// Set this to anything you want.
+// Use breakpoints to make font size globally responsive.
 
 
-// Heading Font Settings
+// Set font classes
+// See: libs/typography.less for options
+.h1, .h2, .h3, .h4, .h5, .h6 { font-family: @heading-font-family; font-weight: @heading-font-weight; }
+.fibASC(@fixed-font-size);
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: @headings-font-family;
-  color: @red;
+.fixed { font-family: @fixed-font-family; font-size: @fixed-font-size; line-height: @fixed-line-height; }
 
-  small,
-  .small {
-    font-weight: normal;
-    line-height: 1;
-  }
+.quiet { font-color: @quiet-color; }
+.loud  { font-color: @loud-color; }
+
+.italic { font-style: italic; }
+.bold   { font-weight: 700; &:extend(.loud); }
+
+.block-margins { margin: 1em 0; }
+
+.unordered-list { list-style-type: disc; }
+.ordered-list { list-style: decimal; }
+
+// The typography class
+// Apply this to the body of your site
+
+.typography {
+  i, em { &:extend(.italic); }
+  b, strong { &:extend(.bold); }
+
+  h1, .h1 { &:extend(.h1); margin: 1em 0 0.5em; }
+  h2, .h2 { &:extend(.h2); margin: 1em 0 0.5em; }
+  h3, .h3 { &:extend(.h3); margin: 1em 0 0.5em; }
+  h4, .h4 { &:extend(.h4); margin: 1em 0 0.5em; }
+  h5, .h5 { &:extend(.h5); margin: 1em 0 0.5em; }
+  h6, .h6 { &:extend(.h6); margin: 1em 0 0.5em; }
+
+  p, ul, ol, pre { &:extend(.block-margins); }
+
+  p { &:extend(.fixed);}
+
+  ul { &:extend(.unordered-list); }
+  ol { &:extend(.ordered-list); }
+
+  pre, code { &:extend(.fixed); }
+
 }
 
-h1 {
-	font-size: @normal-font-size * 4;
-}
+
+
+
+
 
 // Breakpoints
 
