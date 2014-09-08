@@ -33,6 +33,4 @@ Color palette mixins may be used to auto-generate entire palettes for your web p
 
 _Usage:_
 
-body {
-	.shades-palette(@base-color);
-}
+
