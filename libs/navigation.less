@@ -8,18 +8,19 @@
 *
 * Us this pattern for the nav element:
 *
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-					<ul>
-						<li><a href="#">What We do</a></li>
-						<li><a href="#">Why We Do It</a></li>
-					</ul>
-				<li><a href="#">Clients</a></li>
-				<li><a href="#">Contact Us</a></li>
-			</ul> 
-		</nav>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a>
+          <ul>
+            <li><a href="#">What We do</a></li>
+            <li><a href="#">Why We Do It</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul> 
+    </nav>
 
 *************************************************************/
 .nav-horizontal-dropdown(@spacing-unit: 1em, @bg-color: @grey-dark, @txt-color: @grey-lighter) {

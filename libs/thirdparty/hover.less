@@ -1,18 +1,3 @@
-Skip to content
- This repository
-Explore
-Gist
-Blog
-Help
-benjaminbwright benjaminbwright
- 
-275  Watch 
-  Star 4,635
- Fork 761IanLunn/Hover
- branch: master  Hover / css / hover.css
-Ian LunnIanLunn on May 15 Minor fix to hover-shadow
-3 contributors Ian LunnMatthew DavisLeandro D'Onofrio
-1966 lines (1772 sloc)  46.557 kb RawBlameHistory  
 /*!
  * Hover.css (http://ianlunn.co.uk/)
  * Version: 1.0.8
@@ -1419,6 +1404,7 @@ Ian LunnIanLunn on May 15 Minor fix to hover-shadow
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
+
 .float-shadow:before {
   pointer-events: none;
   position: absolute;
@@ -1436,16 +1422,18 @@ Ian LunnIanLunn on May 15 Minor fix to hover-shadow
   -webkit-transition-property: transform, opacity;
   transition-property: transform, opacity;
 }
+
 .float-shadow:hover, .float-shadow:focus, .float-shadow:active {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
   /* move the element up by 5px */
 }
+
 .float-shadow:hover:before, .float-shadow:focus:before, .float-shadow:active:before {
   opacity: 1;
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
-  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+  /*move the element down by 5px (it will stay in place because it's attached to the element that also moves up (5px) */
 }
 
 /* Hover Shadow */
@@ -1978,4 +1966,3 @@ Ian LunnIanLunn on May 15 Minor fix to hover-shadow
   width: 25px;
   height: 25px;
 }
-Status API Training Shop Blog About © 2014 GitHub, Inc. Terms Privacy Security Contact 
