@@ -1,4 +1,4 @@
-less-lifting
+less-lifting v1.0.0
 ============
 
 A simple lightweight LESS framework.
@@ -35,7 +35,7 @@ _Usage:_
 
 .shades-palette(@base-color);
 
-_Creates:_
+_Colors Generated:_
 
 @shade1
 @shade2
@@ -47,19 +47,19 @@ _Creates:_
 
 _Usage:_
 
-_Creates:_
+_Colors Generated:_
 
-//	@analagous1
-//	@analagous2
-//	@analagous3
-//	@analagous4
-//	@analagous5
+@analagous1
+@analagous2
+@analagous3
+@analagous4
+@analagous5
 
 **Complementary Palette**
 
 _Usage:_
 
-_Creates:_
+_Colors Generated:_
 
 @complementary1
 @complementary2
@@ -68,64 +68,64 @@ _Creates:_
 
 _Usage:_
 
-_Creates:_
+_Colors Generated:_
 
-//	@split-complementary1
-//	@split-complementary2
-//	@split-complementary3
+@split-complementary1
+@split-complementary2
+@split-complementary3
 
 **Clash Palette**
 
 _Usage:_
 
-_Creates:_
+_Colors Generated:_
 
-//	@clash1
-//	@clash2
-//	@clash3
+@clash1
+@clash2
+@clash3
 
 **Triadic Palette**
 
 _Usage:_
 
-_Creates:_
+_Colors Generated:_
 
-//	@triad1
-//	@triad2
-//	@triad3
+@triad1
+@triad2
+@triad3
 
 **Tetradic Palette**
 
 _Usage:_
 
-_Creates:_
+_Colors Generated:_
 
-//	@tetrad1
-//	@tetrad2
-//	@tetrad3
-//	@tetrad4
+@tetrad1
+@tetrad2
+@tetrad3
+@tetrad4
 
 **Five Tone Palette**
 
 _Usage:_
 
-_Creates:_
+_Colors Generated:_
 
-//	@five-tone1
-//	@five-tone2
-//	@five-tone3
-//	@five-tone4
-//	@five-tone5
+@five-tone1
+@five-tone2
+@five-tone3
+@five-tone4
+@five-tone5
 
 **Six Tone Palette**
 
 _Usage:_
 
-_Creates:_
+_Colors Generated:_
 
-//	@six-tone1
-//	@six-tone2
-//	@six-tone3
-//	@six-tone4
-//	@six-tone5
-//	@six-tone6
+@six-tone1
+@six-tone2
+@six-tone3
+@six-tone4
+@six-tone5
+@six-tone6

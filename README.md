@@ -1,4 +1,4 @@
-less-lifting
+less-lifting v0.2.0
 ============
 
 A simple lightweight LESS framework.
