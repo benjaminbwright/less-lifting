@@ -8,18 +8,18 @@
 
 //Font Family
 
-@heading-font-family: "Muli", sans-serif;
-@heading-font-weight: 700;
+@heading-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+@heading-font-weight: normal;
 
-@fixed-font-family: "Muli", sans-serif;
-@fixed-font-size: 16px;
+@fixed-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+@fixed-font-size: 14px;
 @fixed-font-weight: normal;
 @fixed-line-height: 1;
 
 //Font Colors
 
-@quiet-color: @grey;
-@loud-color: @red;
+@quiet-color: @denim;
+@loud-color: @white;
 
 // Set the normal font size.
 // Set this to anything you want.
@@ -33,15 +33,15 @@
 
 .fixed { font-family: @fixed-font-family; font-size: @fixed-font-size; line-height: @fixed-line-height; }
 
-.quiet { font-color: @quiet-color; }
-.loud  { font-color: @loud-color; }
+.quiet { color: @quiet-color; }
+.loud  { color: @loud-color; }
 
 .italic { font-style: italic; }
 .bold   { font-weight: 700; &:extend(.loud); }
 
 .block-margins { margin: 1em 0; }
 
-.unordered-list { list-style-type: disc; }
+.unordered-list { list-style-type: none; }
 .ordered-list { list-style: decimal; }
 
 // The typography class
@@ -50,6 +50,7 @@
 .typography {
   i, em { &:extend(.italic); }
   b, strong { &:extend(.bold); }
+  small { &:extend(.fixed); font-size: 75%;}
 
   h1, .h1 { &:extend(.h1); margin: 1em 0 0.5em; }
   h2, .h2 { &:extend(.h2); margin: 1em 0 0.5em; }
@@ -68,10 +69,6 @@
   pre, code { &:extend(.fixed); }
 
 }
-
-
-
-
 
 
 // Breakpoints

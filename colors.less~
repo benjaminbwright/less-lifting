@@ -107,43 +107,7 @@
 //----------------------
 //----------------------
 
-// .triadic-palette(@palette-base-color);
-
 // Tetradic Palette
-//----------------------
-//  Creates variables:
-//	@tetrad1
-//	@tetrad2
-//	@tetrad3
-//	@tetrad4
-//----------------------
-//----------------------
-
-// .tetradic-palette(@palette-base-color);
-
 // Five Tone Palette
-//----------------------
-//  Creates variables:
-//	@five-tone1
-//	@five-tone2
-//	@five-tone3
-//	@five-tone4
-//	@five-tone5
-//----------------------
-//----------------------
-
-// .five-tone-palette(@palette-base-color);
-
 // Six Tone Palette
-//----------------------
-//  Creates variables:
-//	@six-tone1
-//	@six-tone2
-//	@six-tone3
-//	@six-tone4
-//	@six-tone5
-//	@six-tone6
-//----------------------
-//----------------------
 
-// .six-tone-palette(@palette-base-color);

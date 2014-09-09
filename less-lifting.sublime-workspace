@@ -1,0 +1,457 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"true",
+				"true"
+			],
+			[
+				"grey",
+				"grey-lighter"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"eve",
+				"everybs7"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"my",
+				"my_query_args"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"fot",
+				"font-weight"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"gre",
+				"grey-lighter"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"backgou",
+				"background-color"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"di",
+				"display"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/content-home.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/less-lifting/images.less",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/content-posts.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/less-lifting/comments.less",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/less-lifting/navigation.less",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/js/modal-dialogue.js",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/less-lifting/modal-dialogue.less",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/community/members/single/index.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/less-lifting/articles.less",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/buddypress/members/single/index.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/less-lifting/login.less",
+		"/var/www/everybodylovessammy/sammydev/wp-content/plugins/make-me-links/makemelinks.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/js/activity-links.js",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/less-lifting/media.less",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/less-lifting/layout.less",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/inc/template-tags.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/page-goodnews.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/content-mantra.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/functions.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/less-lifting/home-news-ticker.less",
+		"/var/www/everybodylovessammy/sammydev/wp-content/plugins/wp-user-frontend/languages/default.po",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/less-lifting/headings.less",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/buddypress.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/plugins/seamless-donations/dgx-donate.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/single.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/js/html5shiv.min.js",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/header-buddypress.php",
+		"/var/www/everybodylovessammy/Gruntfile.js",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/less-lifting/buttons.less",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/content-single.php",
+		"/var/www/everybodylovessammy/wp-config.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/plugins/wp-user-frontend/wpuf-add-post.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/page-share.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/plugins/theme-my-login/includes/class-theme-my-login-template.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/page-login.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/less-lifting/breakpoints.less",
+		"/var/www/everybodylovessammy/sammydev/wp-content/plugins/theme-my-login/templates/login-form.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/plugins/theme-my-login/templates/register-form.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/content-login.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/less-lifting/base.less",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/page-posts.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/content-home-posts.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/page-harp-seal.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/page-animal-nation.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/Gruntfile.js",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/footer.php",
+		"/var/www/everybodylovessammy/sammydev/wp-content/themes/_s/Gruntfile.js~",
+		"/var/www/dogsite/wp-content/themes/_s/Gruntfile.js",
+		"/var/www/dogsite/wp-content/themes/_s/footer.php",
+		"/var/www/dogsite/wp-content/themes/_s/js/modal-dialogue.js",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/modal-dialogue.less",
+		"/var/www/dogsite/wp-content/themes/_s/buddypress.php",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/headings.less",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/header.less",
+		"/var/www/dogsite/wp-content/themes/_s/content-mantra.php",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/images.less",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/brand.less",
+		"/var/www/dogsite/wp-content/themes/_s/functions.php",
+		"/var/www/dogsite/wp-content/themes/_s/js/activity-links.js",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/articles.less",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/navigation.less",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/layout.less",
+		"/var/www/dogsite/wp-content/themes/_s/page-goodnews.php",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/home-news-ticker.less",
+		"/var/www/dogsite/wp-content/themes/_s/page-home.php",
+		"/var/www/dogsite/wp-content/themes/_s/content-posts.php",
+		"/var/www/dogsite/wp-content/themes/_s/theme-my-login.css",
+		"/var/www/dogsite/wp-content/themes/_s/js/text-area-counter.js",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/footer.less",
+		"/var/www/dogsite/wp-content/themes/_s/header.php",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/breakpoints.less",
+		"/var/www/dogsite/wp-content/themes/_s/page-animal-nation.php",
+		"/var/www/dogsite/wp-content/themes/_s/js/mobile-nav.js",
+		"/var/www/dogsite/wp-content/themes/_s/page-harp-seal.php",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/base.less",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/comments.less",
+		"/var/www/dogsite/wp-content/themes/_s/content-single.php",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/textareas.less",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/asides.less",
+		"/var/www/dogsite/wp-content/themes/_s/inc/custom-header.php",
+		"/var/www/dogsite/wp-content/themes/_s/inc/customizer.php",
+		"/var/www/dogsite/wp-content/themes/_s/inc/extras.php",
+		"/var/www/dogsite/wp-content/themes/_s/inc/jetpack.php",
+		"/var/www/dogsite/wp-content/plugins/wp-dummy-post-generator/wp-dummy-post-generator.php",
+		"/var/www/dogsite/wp-content/plugins/wp-display-header/wp-display-header.php",
+		"/var/www/dogsite/wp-content/plugins/superfish/superfish.php",
+		"/var/www/dogsite/wp-content/themes/_s/inc/template-tags.php",
+		"/var/www/dogsite/wp-content/themes/_s/inc/wpcom.php",
+		"/var/www/dogsite/wp-content/themes/_s/sidebar-good-news.php",
+		"/var/www/dogsite/wp-content/themes/everybodylovessammy/Gruntfile.js",
+		"/var/www/dogsite/wp-content/themes/_s/style.css",
+		"/var/www/dogsite/wp-content/themes/everybodylovessammy/less-lifting/base.less",
+		"/var/www/dogsite/wp-content/themes/everybodylovessammy/header.php",
+		"/var/www/dogsite/wp-content/themes/everybodylovessammy/footer.php",
+		"/var/www/dogsite/wp-content/themes/_s/page.php",
+		"/var/www/dogsite/wp-content/themes/everybodylovessammy/page-home.php",
+		"/var/www/dogsite/wp-content/themes/everybodylovessammy/functions.php",
+		"/var/www/dogsite/wp-content/themes/everybodylovessammy/style.css",
+		"/var/www/dogsite/wp-content/themes/_s/page-about.php",
+		"/var/www/dogsite/wp-content/themes/_s/page-posts.php",
+		"/var/www/dogsite/wp-content/themes/_s/.ftppass",
+		"/var/www/dogsite/wp-content/plugins/sidebar-post/post_post.php",
+		"/var/www/dogsite/wp-content/plugins/BuddyPress/src/bp-activity/bp-activity-screens.php",
+		"/var/www/dogsite/wp-content/plugins/sidebar-post/sidebar_post.php",
+		"/var/www/dogsite/wp-content/themes/_s/community/activity/index.php",
+		"/var/www/dogsite/wp-content/themes/_s/community/activity/post-form.php",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/links.less",
+		"/var/www/dogsite/wp-content/themes/_s/content-page.php",
+		"/var/www/dogsite/wp-content/plugins/BuddyPress/src/bp-themes/bp-default/activity/index.php",
+		"/var/www/dogsite/wp-content/plugins/BuddyPress/src/bp-templates/bp-legacy/buddypress/activity/index.php",
+		"/var/www/dogsite/wp-content/themes/_s/content-home.php",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/typography.less",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/buttons.less",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/tipsy-social-icons.less",
+		"/var/www/dogsite/wp-content/themes/_s/js/superfish.js",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/superfish.less",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/font-index.less",
+		"/var/www/dogsite/wp-content/themes/_s/index.php",
+		"/var/www/dogsite/wp-admin/plugins.php",
+		"/var/www/dogsite/wp-admin/css/press-this-rtl.css",
+		"/var/www/dogsite/wp-content/themes/_s/node_modules/cli-color/node_modules/memoizee/lib/primitive.js",
+		"/var/www/dogsite/wp-content/themes/_s/node_modules/grunt/node_modules/js-yaml/node_modules/esprima/esprima.js",
+		"/var/www/dogsite/wp-content/themes/_s/node_modules/grunt/node_modules/.bin/rimraf",
+		"/var/www/dogsite/wp-content/themes/_s/node_modules/grunt-browser-sync/node_modules/browser-sync/node_modules/url/node_modules/punycode/vendor/requirejs/tests/paths/impl/array.js",
+		"/var/www/dogsite/wp-admin/css/deprecated-media-rtl.css",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/search.less",
+		"/var/www/dogsite/.htaccess",
+		"/var/www/dogsite/wp-content/themes/_s/less-lifting/.gitignore"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/var/www/everybodylovessammy/sammydev/wp-content/plugins/wp-user-frontend",
+			"/var/www/everybodylovessammy/sammydev/wp-content/plugins/buddypress-media",
+			"/var/www/everybodylovessammy/sammydev/wp-content/plugins/theme-my-login",
+			"/var/www/everybodylovessammy/sammydev/wp-content/plugins/wp-user-frontend",
+			"/var/www/everybodylovessammy",
+			"/var/www/everybodylovessammy/sammydev/wp-content/plugins/theme-my-login"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"%s",
+			"%s to tell us",
+			"Attach Files",
+			"RTMEDIA_UPLOAD_LABEL",
+			"Attach Files",
+			"upload",
+			"You are now logged out.",
+			"http://www.everybodylovessammy.com/sammydevlogin",
+			"This page is restricted. Please %s to view this page.",
+			"page is restricted",
+			"restricted",
+			"text-shadow",
+			"desc ",
+			"desc",
+			"desc ",
+			"This page is restricted.",
+			"This page is restricted. Please Log in to view this page",
+			"_x",
+			"previous post link",
+			"overflow",
+			"TFtable",
+			"font-size",
+			"#",
+			"meta",
+			"what's new",
+			"before_",
+			"@6tone",
+			"@5tone",
+			"@splitComp",
+			"@base-color",
+			"@baseColor",
+			"grey-lighter",
+			"@peach"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"%s to tell us your good news.",
+			"mtphr-dnt-grid",
+			"@six-tone",
+			"@five-tone",
+			"@split-complementary",
+			"@base-color: #2865CC;",
+			"@base-color",
+			"brown"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "less-lifting.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 363.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
