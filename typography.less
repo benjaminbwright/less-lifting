@@ -6,37 +6,88 @@
 
 @import "font-index.less";
 
-// Set Base font-size variables
-
-@normal-font-size: 12px;
-
-//
-//Headings
-//---------------------------------------------
-
 //Font Family
 
-@headings-font-family: "Muli", sans-serif;
-@body-font-family: "Muli", sans-serif;
+@heading-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+@heading-font-weight: normal;
+
+@fixed-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+@fixed-font-size: 14px;
+@fixed-font-weight: normal;
+@fixed-line-height: 1;
+
+//Font Colors
+
+@quiet-color: @denim;
+@loud-color: @white;
+
+// Set the normal font size.
+// Set this to anything you want.
+// Use breakpoints to make font size globally responsive.
 
 
-// Heading Font Settings
+// Set font classes
+// See: libs/typography.less for options
+.h1, .h2, .h3, .h4, .h5, .h6 { font-family: @heading-font-family; font-weight: @heading-font-weight; }
+.fibASC(@fixed-font-size);
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: @headings-font-family;
-  color: @red;
+.fixed { font-family: @fixed-font-family; font-size: @fixed-font-size; line-height: @fixed-line-height; }
 
-  small,
-  .small {
-    font-weight: normal;
-    line-height: 1;
-  }
+.quiet { color: @quiet-color; }
+.loud  { color: @loud-color; }
+
+.italic { font-style: italic; }
+.bold   { font-weight: 700; &:extend(.loud); }
+
+.block-margins { margin: 1em 0; }
+
+.unordered-list { list-style-type: none; }
+.ordered-list { list-style: decimal; }
+
+// The typography class
+// Apply this to the body of your site
+
+.typography {
+  i, em { &:extend(.italic); }
+  b, strong { &:extend(.bold); }
+  small { &:extend(.fixed); font-size: 75%;}
+
+  h1, .h1 { &:extend(.h1); margin: 1em 0 0.5em; }
+  h2, .h2 { &:extend(.h2); margin: 1em 0 0.5em; }
+  h3, .h3 { &:extend(.h3); margin: 1em 0 0.5em; }
+  h4, .h4 { &:extend(.h4); margin: 1em 0 0.5em; }
+  h5, .h5 { &:extend(.h5); margin: 1em 0 0.5em; }
+  h6, .h6 { &:extend(.h6); margin: 1em 0 0.5em; }
+
+  p, ul, ol, pre { &:extend(.block-margins); }
+
+  p { &:extend(.fixed);}
+
+  ul { &:extend(.unordered-list); }
+  ol { &:extend(.ordered-list); }
+  pre, code { &:extend(.fixed); }
+
 }
 
 h1 {
-	font-size: @normal-size * 4;
+  &:extend(.loud);
 }
+
+h2, h3, h4 {
+  &:extend(.quiet);
+}
+
+body {
+  &:extend(.loud);
+  &:extend(.fixed);
+}
+
+ul li {
+  margin-top: -.5em;
+  margin-left: 2em;
+}
+
+
 
 // Breakpoints
 

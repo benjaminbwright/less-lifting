@@ -1,15 +1,15 @@
 //
 // Heading Setup Mixins
 //--------------------------------------------------------------
-// Heading mixins control the common sizing of heading elements.
-//--------------------------------------------------------------
+
 //Fibonacci ascending mixin
 
-.fibASC(@base:12px) {
-	h6 {@base}
-	h5 {@base * 1.2}
-	h4 {@base * 1.3}
-	h3 {@base * 1.5}
-	h2 {@base * 1.8}
-	h1 {@base * 2.3}
+.fibASC ( @base: 12px ) {
+	.p,
+	.h6 {font-size: @base;}
+	.h5 {font-size: @base * 1.2;}
+	.h4 {font-size: @base * 1.3; line-height: 1.3;}
+	.h3 {font-size: @base * 1.5; line-height: 1.3;}
+	.h2 {font-size: @base * 1.8; line-height: 1.1;}
+	.h1 {font-size: @base * 2.3; line-height: 1.1;}
 }
